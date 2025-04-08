@@ -1,0 +1,376 @@
+[2025-03-25 18:59:11.806] [info]  5.0.4
+[2025-03-25 18:59:12.161] [error] Cannot set as default protocol client for wootwoot
+[2025-03-25 18:59:12.232] [error] Cannot set as default protocol client for web+wootwoot
+[2025-03-25 18:59:12.732] [debug] Attempt Init
+[2025-03-25 18:59:12.733] [debug] Setting in focus to  false
+[2025-03-25 18:59:12.767] [debug] [RenderApp] loaded:  false
+[2025-03-25 18:59:12.769] [debug] [RenderApp] Complete
+[2025-03-25 18:59:12.769] [debug] Stored state undefined
+[2025-03-25 18:59:12.770] [debug] Initing store after persist
+[2025-03-25 18:59:12.770] [info]  Change desktop update channel to stable
+[2025-03-25 18:59:12.770] [info]  Update channel changed to stable
+[2025-03-25 18:59:12.771] [info]  We found en for 'en-US'
+[2025-03-25 18:59:12.771] [info]  We found en for 'en-US'
+[2025-03-25 18:59:12.771] [info]  Using default en language for 'en-US'
+[2025-03-25 18:59:12.773] [debug] Analog SDK is not installed
+[2025-03-25 18:59:12.774] [info]  Checking for update
+[2025-03-25 18:59:12.774] [info]  Checking for updates
+[2025-03-25 18:59:12.774] [debug] Dispatching from main proc  { type: 'WOOTILITY_CHECKING_FOR_UPDATES' }
+[2025-03-25 18:59:12.776] [debug] Failed to connect to background service RpcError: Failed to fetch
+
+Code: INTERNAL
+Method: wooting_device_communication_service.KeyboardBackendCommunicationService/ListDevices
+[2025-03-25 18:59:12.781] [info]  Generated new staging user ID: d88cb9b0-2e3f-5571-971e-7f552f19c25f
+[2025-03-25 18:59:12.805] [debug] Setting in focus to  true
+[2025-03-25 18:59:12.805] [debug] Searching for devices
+[2025-03-25 18:59:12.811] [debug] Rendering interface
+[2025-03-25 18:59:12.827] [debug] Giving permissions for device {
+  deviceType: 'hid',
+  origin: 'file://',
+  device: {
+    name: 'Wooting Wooting Two HE (ARM)',
+    productId: 4658,
+    serialNumber: 'A02B2336W042H15503',
+    vendorId: 12771
+  }
+}
+[2025-03-25 18:59:12.892] [debug] Rendering interface
+[2025-03-25 18:59:12.896] [info]  Update for version 5.0.4 is not available (latest version: 5.0.4, downgrade is allowed).
+[2025-03-25 18:59:12.896] [info]  Update not available {
+  version: '5.0.4',
+  files: [
+    {
+      url: 'Wootility-5.0.4.AppImage',
+      sha512: '0SIxuft55Wqu9t5ieTPcg7G1QAG9y5LjSf49K8UxDtFl3AeVna+IVg8WPzgRKtSP8xrq+uvUo9UBC76XAEAk9A==',
+      size: 111951266,
+      blockMapSize: 118198
+    }
+  ],
+  path: 'Wootility-5.0.4.AppImage',
+  sha512: '0SIxuft55Wqu9t5ieTPcg7G1QAG9y5LjSf49K8UxDtFl3AeVna+IVg8WPzgRKtSP8xrq+uvUo9UBC76XAEAk9A==',
+  releaseDate: '2025-03-20T12:40:37.308Z'
+}
+[2025-03-25 18:59:12.897] [debug] Dispatching from main proc  { type: 'WOOTILITY_NO_UPDATE_AVAILABLE' }
+[2025-03-25 18:59:13.081] [warn]  Error with Permissions-Policy header: Unrecognized feature: 'ch-ua-form-factors'.
+[2025-03-25 18:59:13.209] [debug] [RenderApp] loaded:  true
+[2025-03-25 18:59:13.337] [debug] Received action for dispatch,  [object Object]
+[2025-03-25 18:59:13.338] [debug] Received action for dispatch,  [object Object]
+[2025-03-25 18:59:13.419] [debug] Determined device to have interface revision  V2
+[2025-03-25 18:59:13.419] [info]  Found device  WOOTING_TWO_HE_ARM
+[2025-03-25 18:59:13.419] [debug] Ensuring there's a valid connection
+[2025-03-25 18:59:13.420] [debug] Queueing Command Ping (0)
+[2025-03-25 18:59:13.441] [info]  Successfully pinged device
+[2025-03-25 18:59:13.442] [debug] Queueing Command GetSerial (3)
+[2025-03-25 18:59:13.471] [debug] Queueing Command GetDeviceConfig (19)
+[2025-03-25 18:59:13.493] [debug] Queueing Command GetDeviceConfig (19)
+[2025-03-25 18:59:13.525] [debug] Queueing Command GetRGBBins (59)
+[2025-03-25 18:59:13.547] [debug] Queueing Command GetVersion (1)
+[2025-03-25 18:59:13.573] [debug] Index was invalid, so here's the new index [object Object]
+[2025-03-25 18:59:13.587] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:13.708] [debug] Queueing Command GetDeviceConfig (19)
+[2025-03-25 18:59:13.735] [debug] Queueing Command GetProfileCount (62)
+[2025-03-25 18:59:13.791] [info]  Determined profile count to be 4
+[2025-03-25 18:59:13.792] [debug] Loading Color profile  0
+[2025-03-25 18:59:13.793] [debug] Queueing Command GetRgbProfileCore (50)
+[2025-03-25 18:59:13.836] [debug] Queueing Command GetRgbProfileColorsPart1 (35)
+[2025-03-25 18:59:13.878] [debug] Queueing Command GetRgbProfileColorsPart2 (36)
+[2025-03-25 18:59:13.919] [debug] Queueing Command GetRgbLayer (57)
+[2025-03-25 18:59:13.950] [debug] Queueing Command GetRgbLayer (57)
+[2025-03-25 18:59:13.993] [debug] Queueing Command GetRgbLayer (57)
+[2025-03-25 18:59:14.041] [debug] Loading Color profile  1
+[2025-03-25 18:59:14.042] [debug] Queueing Command GetRgbProfileCore (50)
+[2025-03-25 18:59:14.068] [debug] Queueing Command GetRgbProfileColorsPart1 (35)
+[2025-03-25 18:59:14.100] [debug] Queueing Command GetRgbProfileColorsPart2 (36)
+[2025-03-25 18:59:14.125] [debug] Queueing Command GetRgbLayer (57)
+[2025-03-25 18:59:14.160] [debug] Loading Color profile  2
+[2025-03-25 18:59:14.161] [debug] Queueing Command GetRgbProfileCore (50)
+[2025-03-25 18:59:14.194] [debug] Queueing Command GetRgbProfileColorsPart1 (35)
+[2025-03-25 18:59:14.225] [debug] Queueing Command GetRgbProfileColorsPart2 (36)
+[2025-03-25 18:59:14.258] [debug] Queueing Command GetRgbLayer (57)
+[2025-03-25 18:59:14.293] [debug] Loading Color profile  3
+[2025-03-25 18:59:14.294] [debug] Queueing Command GetRgbProfileCore (50)
+[2025-03-25 18:59:14.327] [debug] Queueing Command GetRgbProfileColorsPart1 (35)
+[2025-03-25 18:59:14.359] [debug] Queueing Command GetRgbProfileColorsPart2 (36)
+[2025-03-25 18:59:14.392] [debug] Queueing Command GetRgbLayer (57)
+[2025-03-25 18:59:14.425] [debug] Loading Keyboard profile  0
+[2025-03-25 18:59:14.425] [debug] Queueing Command GetKeyboardProfile (39)
+[2025-03-25 18:59:14.467] [debug] Queueing Command GetRapidTriggerProfile (54)
+[2025-03-25 18:59:14.499] [debug] Queueing Command GetFullRapidTriggerProfile (61)
+[2025-03-25 18:59:14.544] [debug] Loading Keyboard profile  1
+[2025-03-25 18:59:14.544] [debug] Queueing Command GetKeyboardProfile (39)
+[2025-03-25 18:59:14.577] [debug] Queueing Command GetRapidTriggerProfile (54)
+[2025-03-25 18:59:14.608] [debug] Queueing Command GetFullRapidTriggerProfile (61)
+[2025-03-25 18:59:14.642] [debug] Loading Keyboard profile  2
+[2025-03-25 18:59:14.643] [debug] Queueing Command GetKeyboardProfile (39)
+[2025-03-25 18:59:14.676] [debug] Queueing Command GetRapidTriggerProfile (54)
+[2025-03-25 18:59:14.708] [debug] Queueing Command GetFullRapidTriggerProfile (61)
+[2025-03-25 18:59:14.742] [debug] Loading Keyboard profile  3
+[2025-03-25 18:59:14.743] [debug] Queueing Command GetKeyboardProfile (39)
+[2025-03-25 18:59:14.776] [debug] Queueing Command GetRapidTriggerProfile (54)
+[2025-03-25 18:59:14.808] [debug] Searching for devices
+[2025-03-25 18:59:14.808] [debug] Queueing Command GetFullRapidTriggerProfile (61)
+[2025-03-25 18:59:14.843] [debug] Loading Gamepad profile  0
+[2025-03-25 18:59:14.843] [debug] Queueing Command GetGamepadProfile (41)
+[2025-03-25 18:59:14.848] [debug] Firmware Update info result:  [object Object]
+[2025-03-25 18:59:14.876] [debug] Queueing Command GetGamepadMapping (40)
+[2025-03-25 18:59:14.920] [debug] Loading Gamepad profile  1
+[2025-03-25 18:59:14.921] [debug] Queueing Command GetGamepadProfile (41)
+[2025-03-25 18:59:14.960] [debug] Queueing Command GetGamepadMapping (40)
+[2025-03-25 18:59:14.983] [debug] Loading Gamepad profile  2
+[2025-03-25 18:59:14.984] [debug] Queueing Command GetGamepadProfile (41)
+[2025-03-25 18:59:15.016] [debug] Queueing Command GetGamepadMapping (40)
+[2025-03-25 18:59:15.042] [debug] Loading Gamepad profile  3
+[2025-03-25 18:59:15.043] [debug] Queueing Command GetGamepadProfile (41)
+[2025-03-25 18:59:15.075] [debug] Queueing Command GetGamepadMapping (40)
+[2025-03-25 18:59:15.108] [debug] Loading Remap profile  0
+[2025-03-25 18:59:15.108] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 18:59:15.152] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 18:59:15.194] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 18:59:15.256] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 18:59:15.298] [debug] Loading Remap profile  1
+[2025-03-25 18:59:15.299] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 18:59:15.330] [debug] Loading Remap profile  2
+[2025-03-25 18:59:15.330] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 18:59:15.362] [debug] Loading Remap profile  3
+[2025-03-25 18:59:15.362] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 18:59:15.394] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 18:59:15.425] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 18:59:15.456] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 18:59:15.488] [debug] Loading Actuation profile  0
+[2025-03-25 18:59:15.488] [debug] Queueing Command GetActuationProfile (49)
+[2025-03-25 18:59:15.531] [debug] Loading Actuation profile  1
+[2025-03-25 18:59:15.531] [debug] Queueing Command GetActuationProfile (49)
+[2025-03-25 18:59:15.563] [debug] Loading Actuation profile  2
+[2025-03-25 18:59:15.563] [debug] Queueing Command GetActuationProfile (49)
+[2025-03-25 18:59:15.595] [debug] Loading Actuation profile  3
+[2025-03-25 18:59:15.595] [debug] Queueing Command GetActuationProfile (49)
+[2025-03-25 18:59:15.627] [debug] Queueing Command GetGlobalSettings (51)
+[2025-03-25 18:59:15.649] [debug] Loading AKCProfile 0
+[2025-03-25 18:59:15.649] [debug] Queueing Command GetAKCProfile (52)
+[2025-03-25 18:59:15.685] [debug] Loading AKCProfile 1
+[2025-03-25 18:59:15.686] [debug] Queueing Command GetAKCProfile (52)
+[2025-03-25 18:59:15.718] [debug] Loading AKCProfile 2
+[2025-03-25 18:59:15.718] [debug] Queueing Command GetAKCProfile (52)
+[2025-03-25 18:59:15.749] [debug] Loading AKCProfile 3
+[2025-03-25 18:59:15.750] [debug] Queueing Command GetAKCProfile (52)
+[2025-03-25 18:59:15.781] [debug] Finalizing loading of Profile  0
+[2025-03-25 18:59:15.781] [debug] Queueing Command GetProfileMetadata (55)
+[2025-03-25 18:59:15.824] [debug] Finalizing loading of Profile  1
+[2025-03-25 18:59:15.825] [debug] Queueing Command GetProfileMetadata (55)
+[2025-03-25 18:59:15.858] [debug] Finalizing loading of Profile  2
+[2025-03-25 18:59:15.859] [debug] Queueing Command GetProfileMetadata (55)
+[2025-03-25 18:59:15.892] [debug] Finalizing loading of Profile  3
+[2025-03-25 18:59:15.892] [debug] Queueing Command GetProfileMetadata (55)
+[2025-03-25 18:59:16.805] [debug] Searching for devices
+[2025-03-25 18:59:16.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:17.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:18.806] [debug] Searching for devices
+[2025-03-25 18:59:18.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:19.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:20.805] [debug] Searching for devices
+[2025-03-25 18:59:20.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:21.925] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:22.806] [debug] Searching for devices
+[2025-03-25 18:59:22.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:23.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:24.805] [debug] Searching for devices
+[2025-03-25 18:59:24.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:25.550] [debug] Subscribe to analog
+[2025-03-25 18:59:26.010] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:26.805] [debug] Searching for devices
+[2025-03-25 18:59:26.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:27.925] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:28.806] [debug] Searching for devices
+[2025-03-25 18:59:28.925] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:29.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:30.806] [debug] Searching for devices
+[2025-03-25 18:59:30.986] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:31.925] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:32.805] [debug] Searching for devices
+[2025-03-25 18:59:32.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:33.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:34.808] [debug] Searching for devices
+[2025-03-25 18:59:34.925] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:35.925] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:36.823] [debug] Searching for devices
+[2025-03-25 18:59:36.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:37.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:38.555] [debug] Unsubscribe from analog
+[2025-03-25 18:59:38.805] [debug] Searching for devices
+[2025-03-25 18:59:38.952] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:39.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:40.806] [debug] Searching for devices
+[2025-03-25 18:59:40.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:41.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:42.731] [debug] Subscribe to analog
+[2025-03-25 18:59:42.820] [debug] Searching for devices
+[2025-03-25 18:59:42.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:43.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:44.805] [debug] Searching for devices
+[2025-03-25 18:59:44.924] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 18:59:45.925] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 19:01:51.640] [info]  5.0.4
+[2025-03-25 19:01:51.999] [error] Cannot set as default protocol client for wootwoot
+[2025-03-25 19:01:52.064] [error] Cannot set as default protocol client for web+wootwoot
+[2025-03-25 19:01:52.545] [debug] Not a v4 store
+[2025-03-25 19:01:52.555] [debug] Attempt Init
+[2025-03-25 19:01:52.556] [debug] Setting in focus to  false
+[2025-03-25 19:01:52.583] [debug] [RenderApp] loaded:  false
+[2025-03-25 19:01:52.585] [debug] [RenderApp] Complete
+[2025-03-25 19:01:52.586] [debug] Stored state [object Object]
+[2025-03-25 19:01:52.587] [debug] Initing store after persist
+[2025-03-25 19:01:52.587] [debug] Index was invalid, so here's the new index [object Object]
+[2025-03-25 19:01:52.588] [info]  Change desktop update channel to stable
+[2025-03-25 19:01:52.588] [info]  Update channel changed to stable
+[2025-03-25 19:01:52.588] [info]  We found en for 'en-US'
+[2025-03-25 19:01:52.588] [info]  We found en for 'en-US'
+[2025-03-25 19:01:52.588] [info]  Using default en language for 'en-US'
+[2025-03-25 19:01:52.590] [debug] Analog SDK is not installed
+[2025-03-25 19:01:52.593] [info]  Checking for update
+[2025-03-25 19:01:52.593] [info]  Checking for updates
+[2025-03-25 19:01:52.594] [debug] Dispatching from main proc  { type: 'WOOTILITY_CHECKING_FOR_UPDATES' }
+[2025-03-25 19:01:52.597] [debug] Failed to connect to background service RpcError: Failed to fetch
+
+Code: INTERNAL
+Method: wooting_device_communication_service.KeyboardBackendCommunicationService/ListDevices
+[2025-03-25 19:01:52.621] [debug] Setting in focus to  true
+[2025-03-25 19:01:52.622] [debug] Searching for devices
+[2025-03-25 19:01:52.626] [debug] Rendering interface
+[2025-03-25 19:01:52.659] [debug] Giving permissions for device {
+  deviceType: 'hid',
+  origin: 'file://',
+  device: {
+    name: 'Wooting Wooting Two HE (ARM)',
+    productId: 4658,
+    serialNumber: 'A02B2336W042H15503',
+    vendorId: 12771
+  }
+}
+[2025-03-25 19:01:52.699] [debug] Rendering interface
+[2025-03-25 19:01:52.724] [info]  Update for version 5.0.4 is not available (latest version: 5.0.4, downgrade is allowed).
+[2025-03-25 19:01:52.724] [info]  Update not available {
+  version: '5.0.4',
+  files: [
+    {
+      url: 'Wootility-5.0.4.AppImage',
+      sha512: '0SIxuft55Wqu9t5ieTPcg7G1QAG9y5LjSf49K8UxDtFl3AeVna+IVg8WPzgRKtSP8xrq+uvUo9UBC76XAEAk9A==',
+      size: 111951266,
+      blockMapSize: 118198
+    }
+  ],
+  path: 'Wootility-5.0.4.AppImage',
+  sha512: '0SIxuft55Wqu9t5ieTPcg7G1QAG9y5LjSf49K8UxDtFl3AeVna+IVg8WPzgRKtSP8xrq+uvUo9UBC76XAEAk9A==',
+  releaseDate: '2025-03-20T12:40:37.308Z'
+}
+[2025-03-25 19:01:52.725] [debug] Dispatching from main proc  { type: 'WOOTILITY_NO_UPDATE_AVAILABLE' }
+[2025-03-25 19:01:52.897] [warn]  Error with Permissions-Policy header: Unrecognized feature: 'ch-ua-form-factors'.
+[2025-03-25 19:01:53.021] [debug] [RenderApp] loaded:  true
+[2025-03-25 19:01:53.152] [debug] Received action for dispatch,  [object Object]
+[2025-03-25 19:01:53.153] [debug] Received action for dispatch,  [object Object]
+[2025-03-25 19:01:53.234] [debug] Determined device to have interface revision  V2
+[2025-03-25 19:01:53.234] [info]  Found device  WOOTING_TWO_HE_ARM
+[2025-03-25 19:01:53.234] [debug] Ensuring there's a valid connection
+[2025-03-25 19:01:53.235] [debug] Queueing Command Ping (0)
+[2025-03-25 19:01:53.256] [info]  Successfully pinged device
+[2025-03-25 19:01:53.256] [debug] Queueing Command GetSerial (3)
+[2025-03-25 19:01:53.435] [debug] Queueing Command GetDeviceConfig (19)
+[2025-03-25 19:01:53.459] [debug] Queueing Command GetDeviceConfig (19)
+[2025-03-25 19:01:53.490] [debug] Queueing Command GetRGBBins (59)
+[2025-03-25 19:01:53.512] [debug] Queueing Command GetVersion (1)
+[2025-03-25 19:01:53.548] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
+[2025-03-25 19:01:53.609] [debug] Firmware Update info result:  [object Object]
+[2025-03-25 19:01:53.617] [debug] Queueing Command GetDeviceConfig (19)
+[2025-03-25 19:01:53.641] [debug] Queueing Command GetProfileCount (62)
+[2025-03-25 19:01:53.695] [info]  Determined profile count to be 4
+[2025-03-25 19:01:53.697] [debug] Loading Color profile  0
+[2025-03-25 19:01:53.697] [debug] Queueing Command GetRgbProfileCore (50)
+[2025-03-25 19:01:53.737] [debug] Queueing Command GetRgbProfileColorsPart1 (35)
+[2025-03-25 19:01:53.781] [debug] Queueing Command GetRgbProfileColorsPart2 (36)
+[2025-03-25 19:01:53.820] [debug] Queueing Command GetRgbLayer (57)
+[2025-03-25 19:01:53.862] [debug] Queueing Command GetRgbLayer (57)
+[2025-03-25 19:01:53.905] [debug] Queueing Command GetRgbLayer (57)
+[2025-03-25 19:01:53.944] [debug] Loading Color profile  1
+[2025-03-25 19:01:53.945] [debug] Queueing Command GetRgbProfileCore (50)
+[2025-03-25 19:01:53.978] [debug] Queueing Command GetRgbProfileColorsPart1 (35)
+[2025-03-25 19:01:54.003] [debug] Queueing Command GetRgbProfileColorsPart2 (36)
+[2025-03-25 19:01:54.036] [debug] Queueing Command GetRgbLayer (57)
+[2025-03-25 19:01:54.070] [debug] Loading Color profile  2
+[2025-03-25 19:01:54.070] [debug] Queueing Command GetRgbProfileCore (50)
+[2025-03-25 19:01:54.106] [debug] Queueing Command GetRgbProfileColorsPart1 (35)
+[2025-03-25 19:01:54.139] [debug] Queueing Command GetRgbProfileColorsPart2 (36)
+[2025-03-25 19:01:54.170] [debug] Queueing Command GetRgbLayer (57)
+[2025-03-25 19:01:54.206] [debug] Loading Color profile  3
+[2025-03-25 19:01:54.207] [debug] Queueing Command GetRgbProfileCore (50)
+[2025-03-25 19:01:54.240] [debug] Queueing Command GetRgbProfileColorsPart1 (35)
+[2025-03-25 19:01:54.272] [debug] Queueing Command GetRgbProfileColorsPart2 (36)
+[2025-03-25 19:01:54.302] [debug] Queueing Command GetRgbLayer (57)
+[2025-03-25 19:01:54.334] [debug] Loading Keyboard profile  0
+[2025-03-25 19:01:54.335] [debug] Queueing Command GetKeyboardProfile (39)
+[2025-03-25 19:01:54.377] [debug] Queueing Command GetRapidTriggerProfile (54)
+[2025-03-25 19:01:54.418] [debug] Queueing Command GetFullRapidTriggerProfile (61)
+[2025-03-25 19:01:54.452] [debug] Loading Keyboard profile  1
+[2025-03-25 19:01:54.453] [debug] Queueing Command GetKeyboardProfile (39)
+[2025-03-25 19:01:54.486] [debug] Queueing Command GetRapidTriggerProfile (54)
+[2025-03-25 19:01:54.519] [debug] Queueing Command GetFullRapidTriggerProfile (61)
+[2025-03-25 19:01:54.543] [debug] Loading Keyboard profile  2
+[2025-03-25 19:01:54.544] [debug] Queueing Command GetKeyboardProfile (39)
+[2025-03-25 19:01:54.576] [debug] Queueing Command GetRapidTriggerProfile (54)
+[2025-03-25 19:01:54.607] [debug] Queueing Command GetFullRapidTriggerProfile (61)
+[2025-03-25 19:01:54.622] [debug] Searching for devices
+[2025-03-25 19:01:54.638] [debug] Loading Keyboard profile  3
+[2025-03-25 19:01:54.638] [debug] Queueing Command GetKeyboardProfile (39)
+[2025-03-25 19:01:54.669] [debug] Queueing Command GetRapidTriggerProfile (54)
+[2025-03-25 19:01:54.700] [debug] Queueing Command GetFullRapidTriggerProfile (61)
+[2025-03-25 19:01:54.737] [debug] Loading Gamepad profile  0
+[2025-03-25 19:01:54.738] [debug] Queueing Command GetGamepadProfile (41)
+[2025-03-25 19:01:54.788] [debug] Queueing Command GetGamepadMapping (40)
+[2025-03-25 19:01:54.823] [debug] Loading Gamepad profile  1
+[2025-03-25 19:01:54.823] [debug] Queueing Command GetGamepadProfile (41)
+[2025-03-25 19:01:54.846] [debug] Queueing Command GetGamepadMapping (40)
+[2025-03-25 19:01:54.880] [debug] Loading Gamepad profile  2
+[2025-03-25 19:01:54.881] [debug] Queueing Command GetGamepadProfile (41)
+[2025-03-25 19:01:54.909] [debug] Queueing Command GetGamepadMapping (40)
+[2025-03-25 19:01:54.943] [debug] Loading Gamepad profile  3
+[2025-03-25 19:01:54.943] [debug] Queueing Command GetGamepadProfile (41)
+[2025-03-25 19:01:54.977] [debug] Queueing Command GetGamepadMapping (40)
+[2025-03-25 19:01:55.011] [debug] Loading Remap profile  0
+[2025-03-25 19:01:55.011] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 19:01:55.056] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 19:01:55.099] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 19:01:55.136] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 19:01:55.180] [debug] Loading Remap profile  1
+[2025-03-25 19:01:55.181] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 19:01:55.213] [debug] Loading Remap profile  2
+[2025-03-25 19:01:55.214] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 19:01:55.238] [debug] Loading Remap profile  3
+[2025-03-25 19:01:55.238] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 19:01:55.269] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 19:01:55.301] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 19:01:55.333] [debug] Queueing Command GetMappingProfile (48)
+[2025-03-25 19:01:55.365] [debug] Loading Actuation profile  0
+[2025-03-25 19:01:55.365] [debug] Queueing Command GetActuationProfile (49)
+[2025-03-25 19:01:55.400] [debug] Loading Actuation profile  1
+[2025-03-25 19:01:55.400] [debug] Queueing Command GetActuationProfile (49)
+[2025-03-25 19:01:55.433] [debug] Loading Actuation profile  2
+[2025-03-25 19:01:55.433] [debug] Queueing Command GetActuationProfile (49)
+[2025-03-25 19:01:55.465] [debug] Loading Actuation profile  3
+[2025-03-25 19:01:55.465] [debug] Queueing Command GetActuationProfile (49)
+[2025-03-25 19:01:55.497] [debug] Queueing Command GetGlobalSettings (51)
+[2025-03-25 19:01:55.520] [debug] Loading AKCProfile 0
+[2025-03-25 19:01:55.521] [debug] Queueing Command GetAKCProfile (52)
+[2025-03-25 19:01:55.558] [debug] Loading AKCProfile 1
+[2025-03-25 19:01:55.558] [debug] Queueing Command GetAKCProfile (52)
+[2025-03-25 19:01:55.591] [debug] Loading AKCProfile 2
+[2025-03-25 19:01:55.591] [debug] Queueing Command GetAKCProfile (52)
+[2025-03-25 19:01:55.624] [debug] Loading AKCProfile 3
+[2025-03-25 19:01:55.624] [debug] Queueing Command GetAKCProfile (52)
+[2025-03-25 19:01:55.655] [debug] Finalizing loading of Profile  0
+[2025-03-25 19:01:55.655] [debug] Queueing Command GetProfileMetadata (55)
+[2025-03-25 19:01:55.687] [debug] Finalizing loading of Profile  1
+[2025-03-25 19:01:55.687] [debug] Queueing Command GetProfileMetadata (55)
+[2025-03-25 19:01:55.719] [debug] Finalizing loading of Profile  2
+[2025-03-25 19:01:55.719] [debug] Queueing Command GetProfileMetadata (55)
+[2025-03-25 19:01:55.752] [debug] Finalizing loading of Profile  3
+[2025-03-25 19:01:55.752] [debug] Queueing Command GetProfileMetadata (55)
+[2025-03-25 19:01:56.622] [debug] Searching for devices
+[2025-03-25 19:01:56.786] [debug] Queueing Command GetCurrentKeyboardProfileIndex (11)
